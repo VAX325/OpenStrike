@@ -25,7 +25,7 @@
 #include "buypreset_weaponsetlabel.h"
 #include "backgroundpanel.h"
 
-#include "cstrike/bot/shared_util.h"
+#include "openstrike/bot/shared_util.h"
 
 using namespace vgui;
 

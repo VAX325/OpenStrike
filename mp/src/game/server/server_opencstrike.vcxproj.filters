@@ -31,12 +31,6 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{BA03E055-4FA2-FCE3-8A1C-D348547D379C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\HL2 DLL">
-      <UniqueIdentifier>{3C43D38A-46AF-2183-A5E5-44383B1D2652}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\HL2 DLL\unused">
-      <UniqueIdentifier>{A52C827A-EB95-73A5-F031-C0395B5E2677}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Navigation Mesh">
       <UniqueIdentifier>{B09D60FE-50B0-FE99-73C2-303E809808E2}</UniqueIdentifier>
     </Filter>
@@ -270,9 +264,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\public\haptics\haptic_utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl2_vehicle_radar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\public\iachievementmgr.h">
@@ -1166,9 +1157,6 @@
     <ClInclude Include="EntityDissolve.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="EntityFlame.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="entityinput.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1289,9 +1277,6 @@
     <ClInclude Include="globalstate_private.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="grenadethrown.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="h_cycler.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1361,9 +1346,6 @@
     <ClInclude Include="..\..\public\model_types.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="monstermaker.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="movehelper_server.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1410,9 +1392,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="physics.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="physics_bone_follower.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="physics_collisionevent.h">
@@ -1481,9 +1460,6 @@
     <ClInclude Include="pushentity.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\ragdoll_shared.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="RagdollBoogie.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1550,9 +1526,6 @@
     <ClInclude Include="..\..\game\shared\singleplay_gamerules.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\solidsetdefaults.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="soundent.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1586,28 +1559,13 @@
     <ClInclude Include="team.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="team_control_point.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="team_control_point_master.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="team_control_point_round.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="team_objectiveresource.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="team_spawnpoint.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="team_train_watcher.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\game\shared\teamplay_gamerules.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\teamplay_round_timer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\game\shared\tempentity.h">
@@ -1616,13 +1574,7 @@
     <ClInclude Include="TemplateEntities.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\touchlink.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="trains.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="trigger_area_capture.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="triggers.h">
@@ -1664,217 +1616,28 @@
     <ClInclude Include="world.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\ai_behavior_actbusy.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\ai_behavior_functank.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\ai_behavior_holster.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\ai_behavior_police.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\ai_goal_police.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\ai_interactions.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\ai_spotlight.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\antlion_dust.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\antlion_maker.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\ar2_explosion.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="basebludgeonweapon.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\basehlcombatweapon.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\basehlcombatweapon_shared.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\cbasehelicopter.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\cbasespriteprojectile.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\citadel_effects_shared.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\combine_mine.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\energy_wave.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\env_alyxemp_shared.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\env_headcrabcanister_shared.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\func_tank.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\grenade_ar2.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\grenade_bugbait.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\grenade_frag.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl2_gamerules.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\hl2_player.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl2_player_shared.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\hl2_playerlocaldata.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl2_shareddefs.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl_gamemovement.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl_movedata.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\item_dynamic_resupply.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_alyx.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_antlion.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_attackchopper.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_barnacle.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_basescanner.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_BaseZombie.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_bullseye.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_citizen17.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_combine.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_combines.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_crow.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_headcrab.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_manhack.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_metropolice.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_playercompanion.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_rollermine.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_stalker.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_strider.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="npc_talker.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\npc_vortigaunt_episodic.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\prop_combine_ball.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\rotorwash.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\script_intro.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\vehicle_apc.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\vehicle_crane.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\weapon_alyxgun.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\weapon_crowbar.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\grenade_beam.h">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\grenade_homer.h">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\grenade_pathfollower.h">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\weapon_flaregun.h">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClInclude>
-    <ClInclude Include="nav.h">
+    <ClInclude Include="NavMesh\nav.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
-    <ClInclude Include="nav_area.h">
+    <ClInclude Include="NavMesh\nav_area.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
-    <ClInclude Include="nav_colors.h">
+    <ClInclude Include="NavMesh\nav_colors.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
-    <ClInclude Include="nav_entities.h">
+    <ClInclude Include="NavMesh\nav_entities.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
-    <ClInclude Include="nav_ladder.h">
+    <ClInclude Include="NavMesh\nav_ladder.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
-    <ClInclude Include="nav_mesh.h">
+    <ClInclude Include="NavMesh\nav_mesh.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
-    <ClInclude Include="nav_node.h">
+    <ClInclude Include="NavMesh\nav_node.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
-    <ClInclude Include="nav_pathfind.h">
+    <ClInclude Include="NavMesh\nav_pathfind.h">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClInclude>
     <ClInclude Include="plasma.h">
@@ -2386,9 +2149,6 @@
     <ClCompile Include="ai_playerally.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ai_relationship.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AI_ResponseSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -2479,16 +2239,7 @@
     <ClCompile Include="baseflex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="basegrenade_concussion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="basegrenade_contact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\game\shared\basegrenade_shared.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="basegrenade_timed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="basemultiplayerplayer.cpp">
@@ -2734,7 +2485,7 @@
     <ClCompile Include="func_lod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\Func_Monitor.cpp">
+    <ClCompile Include="Func_Monitor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="func_movelinear.cpp">
@@ -2801,9 +2552,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="globalstate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="grenadethrown.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="guntarget.cpp">
@@ -2912,9 +2660,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\game\shared\ModelSoundsCache.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="monstermaker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="movehelper_server.cpp">
@@ -3217,9 +2962,6 @@
     <ClCompile Include="sun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\survival_gamerules.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="tactical_mission.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -3232,28 +2974,13 @@
     <ClCompile Include="team.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="team_control_point.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="team_control_point_master.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="team_control_point_round.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="team_objectiveresource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="team_spawnpoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="team_train_watcher.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\game\shared\teamplay_gamerules.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\teamplay_round_timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\game\shared\teamplayroundbased_gamerules.cpp">
@@ -3290,9 +3017,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="trains.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="trigger_area_capture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="triggers.cpp">
@@ -3349,370 +3073,40 @@
     <ClCompile Include="world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\ai_allymanager.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\ai_behavior_actbusy.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\ai_behavior_functank.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\ai_behavior_holster.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\ai_behavior_police.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\ai_goal_police.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\ai_spotlight.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\antlion_dust.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\antlion_maker.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\ar2_explosion.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="basebludgeonweapon.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\basehlcombatweapon.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\basehlcombatweapon_shared.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\cbasehelicopter.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\cbasespriteprojectile.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\citadel_effects.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\combine_mine.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\env_alyxemp.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\env_headcrabcanister.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\env_headcrabcanister_shared.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\env_speaker.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\env_starfield.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\func_recharge.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\func_tank.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\grenade_ar2.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\grenade_bugbait.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\grenade_frag.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hl2_ai_network.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hl2_eventlog.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\hl2_gamerules.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hl2_player.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hl2_playerlocaldata.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hl2_triggers.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\hl2_usermessages.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\hl_gamemovement.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hl_playermove.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\info_teleporter_countdown.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\item_ammo.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\item_battery.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\item_dynamic_resupply.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\item_healthkit.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\item_itemcrate.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\item_suit.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\look_door.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\monster_dummy.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_alyx.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_antlion.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_antlionguard.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_apcdriver.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_attackchopper.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_barnacle.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_barney.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_basescanner.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_BaseZombie.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_breen.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_bullseye.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_citizen17.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_combine.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_combinecamera.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_combinedropship.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_combinegunship.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_combines.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_cranedriver.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_crow.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_dog.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_eli.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_enemyfinder.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_fisherman.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_gman.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_headcrab.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_ichthyosaur.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_kleiner.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_launcher.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_manhack.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_metropolice.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_monk.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_mossman.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_playercompanion.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_PoisonZombie.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_rollermine.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_scanner.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_stalker.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_strider.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="npc_talker.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_turret_ceiling.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_turret_floor.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_turret_ground.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_vortigaunt_episodic.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_zombie.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\point_apc_controller.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\prop_combine_ball.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\prop_thumper.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\proto_sniper.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\rotorwash.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\script_intro.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\script_intro_shared.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\vehicle_airboat.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\vehicle_crane.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\vehicle_prisoner_pod.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\vehicle_viewcontroller.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_annabelle.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_bugbait.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="weapon_cubemap.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\grenade_beam.cpp">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\grenade_homer.cpp">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\grenade_pathfollower.cpp">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\npc_missiledefense.cpp">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\vehicle_apc.cpp">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_cguard.cpp">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_flaregun.cpp">
-      <Filter>Source Files\HL2 DLL\unused</Filter>
-    </ClCompile>
-    <ClCompile Include="nav_area.cpp">
+    <ClCompile Include="NavMesh\nav_area.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_colors.cpp">
+    <ClCompile Include="NavMesh\nav_colors.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_edit.cpp">
+    <ClCompile Include="NavMesh\nav_edit.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_entities.cpp">
+    <ClCompile Include="NavMesh\nav_entities.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_file.cpp">
+    <ClCompile Include="NavMesh\nav_file.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_generate.cpp">
+    <ClCompile Include="NavMesh\nav_generate.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_ladder.cpp">
+    <ClCompile Include="NavMesh\nav_ladder.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_merge.cpp">
+    <ClCompile Include="NavMesh\nav_merge.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_mesh.cpp">
+    <ClCompile Include="NavMesh\nav_mesh.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_mesh_factory.cpp">
+    <ClCompile Include="NavMesh\nav_mesh_factory.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_node.cpp">
+    <ClCompile Include="NavMesh\nav_node.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
-    <ClCompile Include="nav_simplify.cpp">
+    <ClCompile Include="NavMesh\nav_simplify.cpp">
       <Filter>Source Files\Navigation Mesh</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
@@ -3821,9 +3215,6 @@
       <Filter>Source Files\temporary entities</Filter>
     </ClCompile>
     <ClCompile Include="te_footprintdecal.cpp">
-      <Filter>Source Files\temporary entities</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\te_gaussexplosion.cpp">
       <Filter>Source Files\temporary entities</Filter>
     </ClCompile>
     <ClCompile Include="te_glassshatter.cpp">

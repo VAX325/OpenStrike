@@ -11,7 +11,7 @@
 #include "cs_shareddefs.h"
 #include "BackgroundPanel.h"
 #include "buy_presets/buy_presets.h"
-#include "cstrike/bot/shared_util.h"
+#include "openstrike/bot/shared_util.h"
 #include <vgui/ISurface.h>
 #include <vgui/ILocalize.h>
 #include "buypreset_weaponsetlabel.h"

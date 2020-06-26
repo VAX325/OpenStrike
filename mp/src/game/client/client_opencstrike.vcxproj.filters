@@ -4,9 +4,6 @@
     <Filter Include="Game Shared Header Files">
       <UniqueIdentifier>{CF82B2DC-9C3C-7FC8-20C2-E6C638E4242D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="game_controls">
-      <UniqueIdentifier>{8EF3A82E-CCB0-991C-3EF5-6370F2CFBF53}</UniqueIdentifier>
-    </Filter>
     <Filter Include="game_controls Header Files">
       <UniqueIdentifier>{27E89F3D-D002-DEDF-D147-1A64C9C083D1}</UniqueIdentifier>
     </Filter>
@@ -18,15 +15,6 @@
     </Filter>
     <Filter Include="MP3">
       <UniqueIdentifier>{27BCD310-C52F-6445-CF4B-93B90F52F5EF}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Open Strike">
-      <UniqueIdentifier>{C0DE5E78-3B82-46F0-CF9B-90009A0BA034}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Open Strike\vgui">
-      <UniqueIdentifier>{AF777863-80AF-B7B5-063C-D5C3E84A1B39}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Open Strike\Weapons">
-      <UniqueIdentifier>{6DF120E2-64BD-A8C9-15C2-7214EB9B2370}</UniqueIdentifier>
     </Filter>
     <Filter Include="Public Header Files">
       <UniqueIdentifier>{680EF60A-F852-B6F6-8E56-5693F8167FE5}</UniqueIdentifier>
@@ -40,8 +28,14 @@
     <Filter Include="Source Files\game_controls">
       <UniqueIdentifier>{1E7DB91A-DC0A-B17F-617D-4C4FB3FA7A3E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\HL2 DLL">
-      <UniqueIdentifier>{3C43D38A-46AF-2183-A5E5-44383B1D2652}</UniqueIdentifier>
+    <Filter Include="Source Files\Open Strike">
+      <UniqueIdentifier>{1124BCCA-29A0-3112-7521-FFD769E6BAED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Open Strike\vgui">
+      <UniqueIdentifier>{779022F1-7768-1D49-84ED-50AAE7C83371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Open Strike\Weapons">
+      <UniqueIdentifier>{BD889392-019D-6F6E-2566-1AD61F76AED9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Precompiled Header">
       <UniqueIdentifier>{A7D26A13-21F4-C6B5-5922-8A4FB05AF07D}</UniqueIdentifier>
@@ -140,9 +134,6 @@
     <ClInclude Include="..\..\game\shared\basegrenade_shared.h">
       <Filter>Game Shared Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\basehlcombatweapon_shared.h">
-      <Filter>Game Shared Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\game\shared\baseparticleentity.h">
       <Filter>Game Shared Header Files</Filter>
     </ClInclude>
@@ -234,12 +225,6 @@
       <Filter>Game Shared Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\game\shared\groundlink.h">
-      <Filter>Game Shared Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl2_player_shared.h">
-      <Filter>Game Shared Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl_movedata.h">
       <Filter>Game Shared Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\game\shared\ichoreoeventcallback.h">
@@ -1091,120 +1076,6 @@
     <ClInclude Include="mp3player.h">
       <Filter>MP3</Filter>
     </ClInclude>
-    <ClInclude Include="openstrike\buy_presets\buy_preset_debug.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\buy_presets\buy_presets.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\c_cs_hostage.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\c_cs_player.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\c_cs_playerresource.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\c_cs_team.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\c_csrootpanel.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\c_plantedc4.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\clientmode_csnormal.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\cs_ammodef.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\cs_gamerules.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\cs_hud_chat.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\cs_playeranimstate.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\cs_view_scene.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\cs_weapon_parse.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\radio_status.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\bot\shared_util.h">
-      <Filter>Open Strike</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\backgroundpanel.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\buymouseoverpanelbutton.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\Vgui\buypreset_listbox.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\Vgui\buypreset_weaponsetlabel.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\Vgui\career_box.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\Vgui\career_button.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\counterstrikeviewport.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstrikebuyequipmenu.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstrikebuymenu.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstrikebuysubmenu.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstrikeclassmenu.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstrikeclientscoreboard.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstrikespectatorgui.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstriketeammenu.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="openstrike\VGUI\cstriketextwindow.h">
-      <Filter>Open Strike\vgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\weapon_basecsgrenade.h">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\weapon_c4.h">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\weapon_csbase.h">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\weapon_csbasegun.h">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\weapon_knife.h">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\openstrike\weapon_smokegrenade.h">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\public\mathlib\amd3dx.h">
       <Filter>Public Header Files</Filter>
     </ClInclude>
@@ -1904,9 +1775,6 @@
     <ClInclude Include="c_team_objectiveresource.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="c_team_train_watcher.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\game\client\c_vote_controller.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1925,6 +1793,9 @@
     <ClInclude Include="commentary_modelviewer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="hud_base_account.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\game\shared\particle_parse.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1938,9 +1809,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="studio_stats.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\game\shared\teamplay_round_timer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="vgui_avatarimage.h">
@@ -1958,44 +1826,119 @@
     <ClInclude Include="game_controls\basemodelpanel.h">
       <Filter>Source Files\game_controls</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\c_basehelicopter.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\buy_presets\buy_preset_debug.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\c_basehlcombatweapon.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\buy_presets\buy_presets.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\c_basehlplayer.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\c_cs_hostage.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\c_corpse.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\c_cs_player.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\c_hl2_playerlocaldata.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\c_cs_playerresource.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\c_prop_combine_ball.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\c_cs_team.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\c_vehicle_crane.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\c_csrootpanel.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\citadel_effects_shared.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\c_plantedc4.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\env_headcrabcanister_shared.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\clientmode_csnormal.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl2_gamerules.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="..\..\game\shared\openstrike\cs_ammodef.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl2_shareddefs.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="..\..\game\shared\openstrike\cs_gamerules.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\game\shared\hl2\hl_gamemovement.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="openstrike\cs_hud_chat.h">
+      <Filter>Source Files\Open Strike</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\hud_suitpower.h">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClInclude Include="..\..\game\shared\openstrike\cs_playeranimstate.h">
+      <Filter>Source Files\Open Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\cs_view_scene.h">
+      <Filter>Source Files\Open Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\cs_weapon_parse.h">
+      <Filter>Source Files\Open Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\radio_status.h">
+      <Filter>Source Files\Open Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\bot\shared_util.h">
+      <Filter>Source Files\Open Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\backgroundpanel.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\buymouseoverpanelbutton.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\Vgui\buypreset_listbox.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\Vgui\buypreset_weaponsetlabel.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\Vgui\career_box.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\Vgui\career_button.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\counterstrikeviewport.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstrikebuyequipmenu.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstrikebuymenu.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstrikebuysubmenu.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstrikeclassmenu.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstrikeclientscoreboard.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstrikespectatorgui.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstriketeammenu.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="openstrike\VGUI\cstriketextwindow.h">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\weapon_basecsgrenade.h">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\weapon_c4.h">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\weapon_csbase.h">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\weapon_csbasegun.h">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\weapon_knife.h">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game\shared\openstrike\weapon_smokegrenade.h">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
     </ClInclude>
     <ClInclude Include="sixense\in_sixense.h">
       <Filter>Source Files\Sixense</Filter>
@@ -2014,320 +1957,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="game_controls\buymenu.cpp">
-      <Filter>game_controls</Filter>
-    </ClCompile>
-    <ClCompile Include="game_controls\buysubmenu.cpp">
-      <Filter>game_controls</Filter>
-    </ClCompile>
-    <ClCompile Include="game_controls\classmenu.cpp">
-      <Filter>game_controls</Filter>
-    </ClCompile>
     <ClCompile Include="mp3player.cpp">
       <Filter>MP3</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\basecsgrenade_projectile.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\buy_presets\buy_preset.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\buy_presets\buy_preset_debug.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\buy_presets\buy_preset_weapon_info.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\buy_presets\buy_presets.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_cs_hostage.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_cs_player.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_cs_playerresource.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_cs_team.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_csrootpanel.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_plantedc4.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_te_radioicon.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\c_te_shotgun_shot.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\clientmode_csnormal.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_ammodef.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_gamemovement.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_gamerules.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_hud_ammo.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_hud_chat.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_hud_damageindicator.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_hud_health.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_hud_scope.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_hud_target_id.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_hud_weaponselection.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_in_main.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_player_shared.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_playeranimstate.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_prediction.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_shareddefs.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_usermessages.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\cs_view_scene.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\cs_weapon_parse.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\fx_cs_blood.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\fx_cs_impacts.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\fx_cs_knifeslash.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\fx_cs_muzzleflash.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\fx_cs_shared.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\fx_cs_weaponfx.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_account.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_armor.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_c4.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_deathnotice.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_defuser.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_flashbang.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_hostagerescue.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_progressbar.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_radar.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_roundtimer.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_scenarioicon.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\hud_shopping_cart.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\radio_status.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\bot\shared_util.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\vgui_rootpanel_cs.cpp">
-      <Filter>Open Strike</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\backgroundpanel.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\Vgui\buypreset_imageinfo.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\Vgui\buypreset_listbox.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\Vgui\buypreset_panel.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\Vgui\career_box.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\Vgui\career_button.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\counterstrikeviewport.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\cstrikebuyequipmenu.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\cstrikebuymenu.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\cstrikeclassmenu.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\cstrikeclientscoreboard.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\cstrikespectatorgui.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\cstriketeammenu.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\VGUI\cstriketextwindow.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\vgui_c4panel.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="openstrike\vgui_viewc4panel.cpp">
-      <Filter>Open Strike\vgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_ak47.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_aug.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_awp.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_basecsgrenade.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_c4.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_csbase.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_csbasegun.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_deagle.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_elite.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_famas.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_fiveseven.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_flashbang.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_g3sg1.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_galil.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_glock.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_hegrenade.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_knife.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_m249.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_m3.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_m4a1.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_mac10.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_mp5navy.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_p228.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_p90.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_scout.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_sg550.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_sg552.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_smokegrenade.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_tmp.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_ump45.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_usp.cpp">
-      <Filter>Open Strike\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\game\shared\openstrike\weapon_xm1014.cpp">
-      <Filter>Open Strike\Weapons</Filter>
     </ClCompile>
     <ClCompile Include="replay\cdll_replay.cpp">
       <Filter>Replay</Filter>
@@ -2512,7 +2143,7 @@
     <ClCompile Include="c_func_lod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\C_Func_Monitor.cpp">
+    <ClCompile Include="C_Func_Monitor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="c_func_occluder.cpp">
@@ -2614,9 +2245,6 @@
     <ClCompile Include="c_team_objectiveresource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="c_team_train_watcher.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="c_tesla.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -2638,7 +2266,7 @@
     <ClCompile Include="..\..\game\client\c_vote_controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_waterbullet.cpp">
+    <ClCompile Include="c_waterbullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C_WaterLODControl.cpp">
@@ -2875,7 +2503,7 @@
     <ClCompile Include="hud_animationinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_autoaim.cpp">
+    <ClCompile Include="hud_base_account.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="hud_basechat.cpp">
@@ -2894,12 +2522,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="hud_element_helper.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hud_filmdemo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\hud_hdrdemo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="hud_hintdisplay.cpp">
@@ -3217,9 +2839,6 @@
     <ClCompile Include="..\..\game\shared\teamplay_gamerules.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\teamplay_round_timer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\game\shared\teamplayroundbased_gamerules.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -3376,6 +2995,15 @@
     <ClCompile Include="game_controls\baseviewport.cpp">
       <Filter>Source Files\game_controls</Filter>
     </ClCompile>
+    <ClCompile Include="game_controls\buymenu.cpp">
+      <Filter>Source Files\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="game_controls\buysubmenu.cpp">
+      <Filter>Source Files\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="game_controls\classmenu.cpp">
+      <Filter>Source Files\game_controls</Filter>
+    </ClCompile>
     <ClCompile Include="game_controls\ClientScoreBoardDialog.cpp">
       <Filter>Source Files\game_controls</Filter>
     </ClCompile>
@@ -3403,191 +3031,308 @@
     <ClCompile Include="game_controls\vguitextwindow.cpp">
       <Filter>Source Files\game_controls</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\basehlcombatweapon_shared.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\basecsgrenade_projectile.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_antlion_dust.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\buy_presets\buy_preset.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_ar2_explosion.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\buy_presets\buy_preset_debug.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_barnacle.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\buy_presets\buy_preset_weapon_info.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_barney.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\buy_presets\buy_presets.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_basehelicopter.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_cs_hostage.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_basehlcombatweapon.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_cs_player.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_basehlplayer.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_cs_playerresource.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_citadel_effects.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_cs_team.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_corpse.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_csrootpanel.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_env_alyxtemp.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_plantedc4.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_env_headcrabcanister.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_te_radioicon.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_env_starfield.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\c_te_shotgun_shot.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_func_tankmortar.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\clientmode_csnormal.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_hl2_playerlocaldata.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_ammodef.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_info_teleporter_countdown.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_gamemovement.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_npc_antlionguard.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_gamerules.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_npc_combinegunship.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_hud_ammo.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_npc_manhack.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_hud_chat.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_npc_rollermine.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_hud_damageindicator.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_plasma_beam_node.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_hud_health.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_prop_combine_ball.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_hud_scope.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_rotorwash.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_hud_target_id.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_script_intro.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_hud_weaponselection.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_strider.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_in_main.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_te_concussiveexplosion.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_player_shared.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_te_flare.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_playeranimstate.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_thumper_dust.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_prediction.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_vehicle_airboat.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_shareddefs.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_vehicle_cannon.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_usermessages.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_vehicle_crane.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\cs_view_scene.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_vehicle_prisoner_pod.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\cs_weapon_parse.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="episodic\c_vort_charge_token.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\fx_cs_blood.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_weapon__stubs_hl2.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\fx_cs_impacts.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\c_weapon_crossbow.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\fx_cs_knifeslash.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\env_headcrabcanister_shared.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\fx_cs_muzzleflash.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\fx_antlion.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\fx_cs_shared.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\fx_bugbait.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\fx_cs_weaponfx.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\fx_hl2_impacts.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_account.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\fx_hl2_tracers.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_armor.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hl2_clientmode.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_c4.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\hl2_gamerules.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_deathnotice.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\hl2_usermessages.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_defuser.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\hl2\hl_gamemovement.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_flashbang.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hl_in_main.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_hostagerescue.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hl_prediction.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_progressbar.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_ammo.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_radar.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_battery.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_roundtimer.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_blood.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_scenarioicon.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_credits.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\hud_shopping_cart.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_damageindicator.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\radio_status.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_flashlight.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="..\..\game\shared\openstrike\bot\shared_util.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_health.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\vgui_rootpanel_cs.cpp">
+      <Filter>Source Files\Open Strike</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_poisondamageindicator.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\VGUI\backgroundpanel.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_quickinfo.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\Vgui\buypreset_imageinfo.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="hud_squadstatus.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\Vgui\buypreset_listbox.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_suitpower.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\Vgui\buypreset_panel.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_weaponselection.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\Vgui\career_box.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\hud_zoom.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\Vgui\career_button.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\game\shared\script_intro_shared.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\VGUI\counterstrikeviewport.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\shieldproxy.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\VGUI\cstrikebuyequipmenu.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\vgui_rootpanel_hl2.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
+    <ClCompile Include="openstrike\VGUI\cstrikebuymenu.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="openstrike\VGUI\cstrikeclassmenu.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="openstrike\VGUI\cstrikeclientscoreboard.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="openstrike\VGUI\cstrikespectatorgui.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="openstrike\VGUI\cstriketeammenu.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="openstrike\VGUI\cstriketextwindow.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="openstrike\vgui_c4panel.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="openstrike\vgui_viewc4panel.cpp">
+      <Filter>Source Files\Open Strike\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_ak47.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_aug.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_awp.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_basecsgrenade.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_c4.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_csbase.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_csbasegun.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_deagle.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_elite.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_famas.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_fiveseven.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_flashbang.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_g3sg1.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_galil.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_glock.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_hegrenade.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_knife.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_m249.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_m3.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_m4a1.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_mac10.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_mp5navy.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_p228.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_p90.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_scout.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_sg550.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_sg552.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_smokegrenade.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_tmp.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_ump45.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_usp.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\shared\openstrike\weapon_xm1014.cpp">
+      <Filter>Source Files\Open Strike\Weapons</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files\Precompiled Header</Filter>

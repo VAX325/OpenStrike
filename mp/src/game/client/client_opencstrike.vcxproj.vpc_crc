@@ -1,8 +1,8 @@
 [vpc crc file version 2]
-b9c20ec3 B:\Source Code's\VALVE\source-sdk-2013\mp\src\devtools\bin\vpc.exe
+b9c20ec3 B:\Source Code's\openstrike\OpenStrike\mp\src\devtools\bin\vpc.exe
 _Nc_VS2013/vpcgame:opencstrike_
-847adacb client_openstrike.vpc
-92e66859 ..\..\game\client\client_base.vpc
+ee4036a2 client_openstrike.vpc
+5595045c ..\..\game\client\client_base.vpc
 4832e67a ..\..\vpc_scripts\source_dll_base.vpc
 d752cf80 ..\..\vpc_scripts\platform_dirs.vpc
 6c4a5ff1 ..\..\vpc_scripts\source_base.vpc

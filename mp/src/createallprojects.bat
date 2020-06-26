@@ -1,1 +1,1 @@
-devtools\bin\vpc.exe /open_strike +everything /mksln everything.sln
+devtools\bin\vpc.exe /OPENCSTRIKE +everything /mksln everything.sln

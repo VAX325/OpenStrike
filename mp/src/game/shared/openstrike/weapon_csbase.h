@@ -159,6 +159,8 @@ public:
 		int				m_iScopeTextureID;
 		int				m_iCrosshairTextureID; // for white additive texture
 
+		bool m_bInReloadAnimation;
+
 		virtual int GetMuzzleFlashStyle( void );
 
 	#else
