@@ -36,19 +36,18 @@
 	}
 	"7"
 	{
-		"label" "#GameUI_GameMenu_ActivateVR"
-		"command" "engine vr_activate"
-		"InGameOrder" "40"
-		"OnlyWhenVREnabled" "1"
-		"OnlyWhenVRInactive" "1"
+		"label" "#GameUI_GameMenu_Achievements"
+		"command" "OpenCSAchievementsDialog"
 	}
 	"8"
 	{
-		"label" "#GameUI_GameMenu_DeactivateVR"
-		"command" "engine vr_deactivate"
-		"InGameOrder" "40"
-		"OnlyWhenVREnabled" "1"
-		"OnlyWhenVRActive" "1"
+		"label" "#GameUI_ReportBug"
+		"command" "engine bug"
+	}
+	"9"
+	{
+		"label" "#GameUI_LaunchBenchmark"
+		"command" "OpenBenchmarkDialog"
 	}
 	"10"
 	{
