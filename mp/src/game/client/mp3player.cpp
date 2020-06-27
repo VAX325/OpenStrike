@@ -6,7 +6,7 @@
 
 #include "cbase.h"
 
-#ifdef COMMUNITY_DLL // Niko: MP3 Player Is Back!!!
+#ifdef OPEN_STRIKE // Niko: MP3 Player Is Back!!!
 #include "mp3player.h"
 #include "KeyValues.h"
 #include "filesystem.h"

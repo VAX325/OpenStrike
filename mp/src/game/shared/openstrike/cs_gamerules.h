@@ -191,7 +191,7 @@ public:
 
 	virtual void			InitDefaultAIRelationships( void );
 
-	virtual const char *GetGameDescription( void ) { return "Counter-Strike Source: Community Edition"; }  // this is the game name that gets seen in the server browser
+	virtual const char *GetGameDescription( void ) { return "Open Strike"; }  // this is the game name that gets seen in the server browser
 	virtual const char *AIClassText(int classType);
 
 	virtual bool FShouldSwitchWeapon( CBasePlayer *pPlayer, CBaseCombatWeapon *pWeapon );

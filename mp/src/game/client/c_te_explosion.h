@@ -68,7 +68,7 @@ CRagdollExplosionEnumerator::~CRagdollExplosionEnumerator()
 		UTIL_TraceLine( m_vecOrigin, position, MASK_SHOT_HULL, NULL, COLLISION_GROUP_NONE, &tr );
 
 		// debugoverlay->AddLineOverlay( m_vecOrigin, position, 0,255,0, true, 18.0 );
-#ifdef COMMUNITY_DLL
+#ifdef OPEN_STRIKE
 		Assert(tr.m_pEnt != NULL);
  		if ( tr.fraction < 1.0f || tr.m_pEnt != pModel)
 #else

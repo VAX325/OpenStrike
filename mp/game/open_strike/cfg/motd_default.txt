@@ -32,7 +32,7 @@ a:hover {
 </head>
 <body scroll="no">
 <pre>
-You are playing Counter-Strike Source: Community Edition
+You are playing Open Strike!
 Have Fun!.
 </pre>
 </body>

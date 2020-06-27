@@ -41,7 +41,7 @@ public:
 
 	virtual bool	CanRecordDemo( char *errorMsg, int length ) const;
 	
-#if defined ( COMMUNITY_DLL ) && defined ( GLOWS_ENABLE )
+#if defined ( OPEN_STRIKE ) && defined ( GLOWS_ENABLE )
 	virtual bool	DoPostScreenSpaceEffects( const CViewSetup *pSetup );
 #endif
 

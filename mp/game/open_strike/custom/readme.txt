@@ -6,12 +6,12 @@ See gameinfo.txt for more details.
 
 For example, you might have the following file structure:
 
-	cstrike_community/custom/my_custom_stuff/   <<< This subfolder will be added as a search path
-	cstrike_community/custom/my_custom_stuff/models/custom_model.mdl
-	cstrike_community/custom/my_custom_stuff/materials/custom_material.vmt
-	cstrike_community/custom/my_custom_stuff/materials/vgui/custom_ui_thing.res
-	cstrike_community/custom/some_mod.vpk       <<< This VPK will be added as a search path
-	cstrike_community/custom/another_mod.vpk    <<< This VPK will be added as a search path
+	open_strike/custom/my_custom_stuff/   <<< This subfolder will be added as a search path
+	open_strike/custom/my_custom_stuff/models/custom_model.mdl
+	open_strike/custom/my_custom_stuff/materials/custom_material.vmt
+	open_strike/custom/my_custom_stuff/materials/vgui/custom_ui_thing.res
+	open_strike/custom/some_mod.vpk       <<< This VPK will be added as a search path
+	open_strike/custom/another_mod.vpk    <<< This VPK will be added as a search path
 
 
 Mounting a VPK to the filesystem is more efficient that adding a subfolder,
@@ -24,7 +24,7 @@ and don't make any subfolders in this folder!
 
 Note that the following directory structure is NOT correct:
 
-	cstrike_community/custom/models/my_model.mdl
+	open_strike/custom/models/my_model.mdl
 
-That will add the directory "cstrike_community/custom/models" as a search path, in which case the
+That will add the directory "open_strike/custom/models" as a search path, in which case the
 file my_model.mdl actually exists at the root of the game's virtual filesystem.
