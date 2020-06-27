@@ -57,3 +57,5 @@ config.cfg
 *.tmp
 
 *.vpc_crc
+Release_open_strike
+Debug_open_strike
