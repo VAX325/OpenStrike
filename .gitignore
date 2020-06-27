@@ -13,11 +13,13 @@
 *.ilk
 *.lastbuildstate
 vc100.pdb
+vc120.pdb
 ipch
 *.sdf
 *.opensdf
 *.idb
 *.vcxproj
+*.filters
 *.sln
 
 # OSX/Linux build products
@@ -54,5 +56,4 @@ config.cfg
 # shader files
 *.tmp
 
-*.pdb
 *.vpc_crc
